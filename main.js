@@ -8,9 +8,10 @@ const body = document.querySelector('body');
 
 // Init voices array
 let voices = [];
+console.log(voices)
 
 const lang = 'pt-BR'
-const voiceIndex = 0
+const voiceIndex = 2
 
 const getVoices = () => {
   return new Promise((resolve) => {
@@ -31,6 +32,7 @@ const chooseVoice = async () => {
 
   return new Promise((resolve) => {
     resolve(voices[voiceIndex])
+    
   })
 }
 
@@ -42,6 +44,7 @@ const speak = async () => {
   speakText.pitch = 1
   synth.speak(speakText)
 }
+
 
 
 // EVENT LISTENERS
