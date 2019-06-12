@@ -1,0 +1,37 @@
+body{
+    background: #64ff86;
+    padding: 50px 20px 20px 20px;
+}
+
+.container{
+    margin-top: 30vh
+}
+
+#novoEvento{
+    display: flex;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#text-input{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 5ch;
+}
+
+#meapertouaqui{
+    background-color: white;
+    width: 20vh;
+    height: 3vw;
+    border: 1px solid black;
+    border-radius:100px;
+    font-size: 4vh;
+    text-align: center;
+    text-decoration-color: white;
+    
+
+}
