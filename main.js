@@ -11,7 +11,7 @@ let voices = [];
 console.log(voices)
 
 const lang = 'pt-BR'
-const voiceIndex = 2
+const voiceIndex = 0
 
 const getVoices = () => {
   return new Promise((resolve) => {
