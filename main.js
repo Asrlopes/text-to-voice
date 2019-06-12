@@ -10,7 +10,7 @@ const body = document.querySelector('body');
 let voices = [];
 
 const lang = 'pt-BR'
-const voiceIndex = 1
+const voiceIndex = 0
 
 const getVoices = () => {
   return new Promise((resolve) => {
