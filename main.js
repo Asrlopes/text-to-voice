@@ -42,7 +42,7 @@ const speak = async () => {
   speakText.voice = await chooseVoice()
   speakText.rate = 0.9
   speakText.pitch = 1
-  synth.speak('teste' ,speakText)
+  synth.speak(speakText)
 }
 
 
